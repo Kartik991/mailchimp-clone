@@ -276,16 +276,32 @@ button.primary:hover {
 
 }
 .getstarted-panel div a {
-    font-size: larger;
+    font-size: 1.1rem;
     font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
     width: fit-content;
     height: 1.3rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-top: 24px;
+    margin-left: -8px;
+    gap: 8px;
+    color: black;
+    text-decoration: none;
 }
+
 .getstarted-panel div a:hover{
     background-color:#ffe01b ;
     border-radius: 2rem;
-    columns: black;
+    color: black;
+    text-decoration: none;
 }
+
+.getstarted-panel div a:visited{
+    color: black;
+    text-decoration: none;
+}
+
 .getstarted-panel div img {
     background-color: #ffe01b;
     border-radius: 50%;
@@ -294,6 +310,7 @@ button.primary:hover {
     margin: 0;
     padding: 3px;
     display: inline;
+    padding: 8px;
 
 }
 .getstarted-panel img{
@@ -353,13 +370,23 @@ button.primary:hover {
     color: black;
 
 }
-.languagePicker{
-    padding: 16px 32px;
+.languagePicker {
+    padding: 12px;
+    width: 240px;
     background-color:#e7b75f;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: start;
 }
+
+select.languagePicker {
+    border: 1px solid black
+}
+
 .languagePicker option{
     background-color: white;
 }
+
 .languagePicker :hover{
     background-color: white;
 }
