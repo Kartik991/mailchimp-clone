@@ -101,7 +101,7 @@ a:hover {
 }
 
 button.primary {
-    
+
     background-color: transparent;
     border-radius: 2em;
     padding: 12px 24px;
@@ -332,7 +332,7 @@ button.primary:hover {
     text-decoration: none;
 
 }
-.yellowbutton :hover{ 
+.yellowbutton:hover{ 
     background-color:#ffe01b ;
     border-radius: 2rem;
     color: black;
@@ -368,7 +368,7 @@ button.primary:hover {
 }
 .footer-flex2-inner{
     display: flex;
-    gap: 30px;
+    gap: 0px;
     flex-direction: column;
 }
 .footer-flex2-inner ul{
@@ -394,9 +394,6 @@ button.primary:hover {
     margin: 2%;
     padding-right:20px ;
     justify-content: center;
-}
-.footer-flex2-inner-2 img{
-    height: 2rem;
 }
 .footer-flex2-inner-2 p{
     position: relative;
