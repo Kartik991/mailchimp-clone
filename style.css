@@ -101,6 +101,7 @@ a:hover {
 }
 
 button.primary {
+    
     background-color: transparent;
     border-radius: 2em;
     padding: 12px 24px;
@@ -316,6 +317,43 @@ button.primary:hover {
 .getstarted-panel img{
     width: 50%;
 }
+.yellowbutton{
+    font-size: 1.1rem;
+    font-family: "Graphik Web", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif;
+    width: fit-content;
+    height: 1.3rem;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-top: 24px;
+    margin-left: -8px;
+    gap: 8px;
+    color: black;
+    text-decoration: none;
+
+}
+.yellowbutton :hover{ 
+    background-color:#ffe01b ;
+    border-radius: 2rem;
+    color: black;
+    text-decoration: none;
+
+}
+.yellowbutton :visited{
+    color: black;
+    text-decoration: none;
+}
+.yellowbuttonimg{
+    background-color: #ffe01b;
+    border-radius: 50%;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0;
+    padding: 3px;
+    display: inline;
+    padding: 8px;
+}
+
 .footer{
     background-color: #e7b75f;
     padding: 60px 106px;
@@ -324,8 +362,49 @@ button.primary:hover {
     
 }
 .footer-flex2  {
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+.footer-flex2-inner{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.footer-flex2-inner ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-flex2-inner ul li{
+    padding: 5px 0px;
+}
+.footer-flex2-inner ul li a{
+    color: black;
+    font-weight: ;
+    text-decoration: underline;
+}
+.footer-flex2-inner ul li a:hover{
+    background-color: #ffe01b;
+    color: black;
+}
+.footer-flex2-inner-2{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 2%;
+    padding-right:20px ;
+    justify-content: center;
+}
+.footer-flex2-inner-2 img{
+    height: 2rem;
+}
+.footer-flex2-inner-2 p{
+    position: relative;
+    left: 25%;
+    font-size: smaller;
+    width: 60%;
+}
+
 .footer-flex3 {
     display: flex;
     flex-direction: column;
